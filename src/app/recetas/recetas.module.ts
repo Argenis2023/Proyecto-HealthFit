@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { RecetasPageRoutingModule } from './recetas-routing.module';
 
 import { RecetasPage } from './recetas.page';
-import { AlertComponent } from '../components/alert/alert.component';
 
 @NgModule({
   imports: [
@@ -17,7 +16,7 @@ import { AlertComponent } from '../components/alert/alert.component';
     RecetasPageRoutingModule
     
   ],
-  declarations: [RecetasPage,AlertComponent]
+  declarations: [RecetasPage]
 })
 export class RecetasPageModule {}
 export class AppModule { }
